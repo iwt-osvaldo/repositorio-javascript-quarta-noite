@@ -1,0 +1,46 @@
+.lateral{
+    background-color: rgb(189,93,58);
+    height:100vh;
+}
+
+.profile-pic{
+    width: 150px;
+    height:150px;
+    border:8px solid rgb(200,122,94);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.lista li{
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+.lista li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    opacity:0.4;
+}
+/*issue to be review
+ul:first-child{
+    opacity:1 !important;
+}
+*/
+.lista li a:hover{
+    color:white;
+    opacity:1;
+}
+
+#titulo{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+#sobrenome{
+    color:rgb(189,93,58);
+}
+
+.icones{
+    font-size: 2.5rem;
+}
